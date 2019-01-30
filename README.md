@@ -7,3 +7,6 @@
 
 ## 第二部分
 第二部分代码实在Google Datalab上运行完成的。Compute Engine的配置为：CPU platform: Intel Sandy Bridge; Machine type: n1-highmem-8 (8 vCPUs, 52 GB memory) GPU: NVIDIA Tesla V100, GPU数量：1
+
+## 输出文件
+最终模型的输出文件为"my_sub.csv", 两个深度学习模型的预测输出为”J_sub.csv“（GRU）和“D_sub.csv”(LSTM + GRU). 词袋模型的输出为"LR_submission.csv"
